@@ -1,0 +1,260 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-section{
+    background: #016A70;
+    padding: 3em;
+    
+
+    
+   
+}
+
+.nav-container{
+    background: white;
+    border-radius: 1.25rem;
+    width: 90em;
+    height: 5rem;
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin:auto;
+   text-align: center;
+   position: fixed;
+   right: 0%;
+   left: 0%;
+  
+   
+  
+ /* Ensure it's above other content */
+    
+}
+
+.mid-nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+         
+}
+
+a{
+    text-decoration: none;
+    color: #393E46;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    
+}
+
+.Reg-btn{
+    background: #016A70;
+    border-radius: 0.63rem;
+    padding: 0.5rem 1.25rem;
+    color: white;
+}
+
+.hero-text{
+    margin-left: 24em;
+    margin-top: 15em;
+    display: flex;
+    justify-content: space-evenly ;
+}
+
+.hero-text h3{
+    color: white;
+}
+
+.hero-text h1{
+    color: #FFFFDD;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.hero-text p{
+    color: white;
+    margin-bottom: 4em;
+    font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.View-details-btn{
+    color: white;
+    border-radius: 0.625rem;
+    border: 2px solid white;
+    padding: 0.5rem 1.25rem;
+    margin-top: 4em;
+    
+       
+}
+
+.illustration{
+    margin-right: 20em;
+    margin-top: -3em;
+}
+
+.mid-01-section{
+    display: flex;
+    justify-content: center;
+    gap: 7.5rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 3em;
+    margin-left: 8em;
+    margin-right: 8em;
+    
+}
+
+.h1-size{
+    font-size: 1.5rem;
+    font-style: normal;
+    line-height: normal;
+    color: #312226;
+}
+
+.mid-01-section h4{
+    color: #222831;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.mid-02-section p{
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-items: center;
+    text-align: center;
+    margin-top: 4em;
+}
+
+.mid-02-section h1{
+    text-align: center;
+    margin-top: -1em;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/*mid-03-section*/
+
+.p-header{
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.p-body{
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+
+.mid-03-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:  3.125rem;;
+    
+    /*place-content: space-between;*/
+}
+
+
+.heart-icon{
+    margin-top: 3em;
+}
+
+.card-01{
+    
+    margin-top: 5em;
+    width: 20.8125rem;
+    height: 19.5625rem;
+    border-radius: 1.25rem;
+    background: white;
+    text-align: center;
+    padding: .5em;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    
+}
+
+.card-01:hover {
+    box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.4); /* Change the box-shadow on hover */
+}
+
+
+
+.teach-icon{
+    margin-top: 3em;
+}
+
+.card-02 {
+    margin-top: 5em;
+    width: 20.8125rem;
+    height: 19.5625rem;
+    border-radius: 1.25rem;
+    background: white;
+    text-align: center;
+    padding: .5em;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    /*box-shadow: h-offset v-offset blur spread color inset;*/  
+}
+
+.card-02:hover {
+    box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.4); /* Change the box-shadow on hover */
+}
+
+.trash-icon{
+    margin-top: 3em;
+}
+
+.card-03{
+    margin-top: 5em;
+    width: 20.8125rem;
+    height: 19.5625rem;
+    border-radius: 1.25rem;
+    background: white;
+    text-align: center;
+    padding: .5em;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.card-03:hover {
+    box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.4); /* Change the box-shadow on hover */
+    ;
+}
+
+
+.mid-04-section p{
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-items: center;
+    text-align: center;
+    margin-top: 4em;
+}
+
+.mid-04-section h1{
+    text-align: center;
+    margin-top: -1em;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
